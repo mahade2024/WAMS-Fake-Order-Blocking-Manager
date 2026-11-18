@@ -1,7 +1,6 @@
 <?php
 if (!defined('ABSPATH')) exit;
 
-// Ensure WooCommerce is active
 if (!class_exists('WooCommerce')) {
     echo '<p style="color:red;">WooCommerce is not active!</p>';
     return;
